@@ -18,6 +18,11 @@ const SNSPage = () => {
           <a href="https://www.youtube.com/@shu_9999/">Youtubeを見る</a>
         </div>
         <div className="sns-card">
+          <h2>GitHub</h2>
+          <p>GitHubでは今まで作ったプロジェクトをほぼ上げています。</p>
+          <a href="https://github.com/shupopo-999">GitHubを見る</a>
+        </div>
+        <div className="sns-card">
           <h2>Instagram</h2>
           <p>Instagramはあまりやっておりません。(見る専です)</p>
           <a href="https://www.instagram.com/">Instagramを見る</a>
