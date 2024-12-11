@@ -1,10 +1,10 @@
 import React from 'react'
 import { Button } from 'react-bootstrap';
 
-import reactImage from "images/react.png";
-import jsImage from "images/js.png";
-import firebaseImage from "images/firebase.jpg";
-import profileImage from "images/sibainu.jpg";
+import reactImage from "../images/react.png";
+import jsImage from "../images/js.png";
+import firebaseImage from "../images/firebase.jpg";
+import profileImage from "../images/sibainu.jpg";
 
 const HomePage = () => {
   return (

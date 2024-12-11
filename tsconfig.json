@@ -10,6 +10,7 @@
         "dom.iterable",
         "esnext"
       ],
+      "baseUrl": "./",
   //JSファイルのビルドを可能に
       "allowJs": true,
   //暗黙のany型をエラーに
@@ -34,7 +35,10 @@
       "isolatedModules": true,
       "noEmit": true,
   //tsx拡張子においてJSXサポートを行うか
-      "jsx": "react"
+      "jsx": "react",
+      "paths": {
+            "*": ["src/*"]
+        }
     },
     "include": [
       "src"

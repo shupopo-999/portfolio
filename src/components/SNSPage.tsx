@@ -8,8 +8,8 @@ const SNSPage = () => {
       </div>
       <div className="sns-content">
         <div className="sns-card">
-          <h2>Twitter</h2>
-          <p>Twitterの最新情報をお届けします。</p>
+          <h2>X(旧Twitter)</h2>
+          <p>X(旧Twitter)の最新情報をお届けします。</p>
           <a href="https://x.com/shu125481/">Twitterを見る</a>
         </div>
         <div className="sns-card">
