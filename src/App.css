@@ -5,9 +5,9 @@
 }
 
 .App{
-  width: 100%;
-  height: 100vh;
   font-size: 18 px;
+  height: 100vh;
+  width: 100%;
 }
 
 header{
@@ -18,12 +18,14 @@ header{
   background: rgb(44, 44, 44);
   color: white;
   height: 90px;
-  /*position:fixed; */
+  position:fixed;
   z-index: 10;
 }
 
 header .logo h3{
-  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 
 nav ul{
@@ -38,9 +40,10 @@ header ul li{
 }
 
 header ul li a{
+  font-size: 19px;
   text-decoration: none;
-  color: white;
-  transition: all 0.3s;
+  color: var(--white-color);
+  transition: all 0.2s;
 }
 
 header ul li a:hover{
@@ -86,12 +89,11 @@ header .sns-card a{
 
 .container {
   height: 100vh;
-  padding: 100%;  
+  padding: 120px;
 }
 
 .container h1 {
   text-align: center;
-  color:black;
   font-size: 50px;
 }
 
@@ -99,14 +101,6 @@ header .sns-card a{
   object-fit: cover;
   height: 100px;
   width: 100px;
-  border-radius: 50%;
-  margin-bottom: 15px;
-}
-.profileImage p{
-  object-fit: cover;
-  height: 100px;
-  width: 100px;
-  color:black;
   border-radius: 50%;
   margin-bottom: 15px;
 }
