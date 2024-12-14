@@ -1,34 +1,46 @@
 import React from 'react'
+import XImage from '../images/X.jpg'
+import YoutubeImage from '../images/YouTube.png'
+import GitHubImage from '../images/GitHub.png'
+import InstagramImage from '../images/Instagram.png'
 
 const SNSPage = () => {
   return (
-    <header>
-      <div className="sns">
-        <h1>SNS</h1>
+    <div className="container text-center">
+      <div className="text-padding-bottom">
+        <h1 className="sns title">SNS</h1>
       </div>
-      <div className="sns-content">
-        <div className="sns-card">
-          <h2>X(旧Twitter)</h2>
-          <p>X(旧Twitter)ではたまにツイートしたりします。</p>
-          <a href="https://x.com/shu125481/">Twitterを見る</a>
+      <section className="text-padding-bottom" id="skill">
+        <div className="text-center title">
+          <div className="row text-center">
+            <div className="col-md-4 services text-padding-bottom">
+              <img src={XImage} />
+              <h4>X(旧Twitter)</h4>
+              <p>DirectXが使えます</p>
+              <a href='https://x.com/shu125481'>Twitterを見る</a>
+            </div>
+            <div className="col-md-4 services text-padding-bottom">
+              <img src={YoutubeImage} />
+              <h4>Youtube</h4>
+              <p>Youtubeが使えます</p>
+              <a href='https://www.youtube.com/@shu_9999'>YouTubeを見る</a>
+            </div>
+            <div className="col-md-4 services text-padding-bottom">
+              <img src={GitHubImage} />
+              <h4>GitHub</h4>
+              <p>GitHubが使えます</p>
+              <a href='https://github.com/shupopo-999'>GitHubを見る</a>
+            </div>
+            <div className="col-md-4 services text-padding-bottom">
+              <img src={InstagramImage} />
+              <h4>Instagram</h4>
+              <p>Instagram勉強中です</p>
+              <a href='https://www.instagram.com/'>Instagramを見る</a>
+            </div>
+          </div>
         </div>
-        <div className="sns-card">
-          <h2>Youtube</h2>
-          <p>Youtubeではたまに趣味のゲームを投稿したりします。</p>
-          <a href="https://www.youtube.com/@shu_9999/">Youtubeを見る</a>
-        </div>
-        <div className="sns-card">
-          <h2>GitHub</h2>
-          <p>GitHubでは今まで作ったプロジェクトをほぼ上げています。</p>
-          <a href="https://github.com/shupopo-999">GitHubを見る</a>
-        </div>
-        <div className="sns-card">
-          <h2>Instagram</h2>
-          <p>Instagramはあまりやっておりません。(見る専です)</p>
-          <a href="https://www.instagram.com/">Instagramを見る</a>
-        </div>
-      </div>
-    </header>
+      </section>
+    </div>
   )
 }
 

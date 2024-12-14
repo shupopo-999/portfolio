@@ -3,12 +3,12 @@
   --white-color: #ffffff;
   --lightgray-color: #e6e6e6;
 }
-
 .App{
   font-size: 18 px;
   height: 100vh;
   width: 100%;
 }
+
 
 header{
   display: flex;
@@ -18,110 +18,82 @@ header{
   background: rgb(44, 44, 44);
   color: white;
   height: 90px;
-  position:fixed;
   z-index: 10;
 }
-
 header .logo h3{
   margin: 0;
   padding: 0;
   color: white;
 }
-
 nav ul{
   margin: 0;
   padding: 0;
 }
-
 header ul li{
   list-style: none;
   display: inline-block;
   margin-right: 30px;
 }
-
 header ul li a{
   font-size: 19px;
   text-decoration: none;
   color: var(--white-color);
   transition: all 0.2s;
 }
-
 header ul li a:hover{
   color: rgb(0, 209, 10);
 }
 
-header .home h1{
+
+
+.Blog .text-padding-bottom h1{
   display: flix;
   justify-content: space-around;
   align-items: center;
-}
-header .blog h1{
-  display: flix;
-  justify-content: space-around;
-  align-items: center;
-}
-header .sns h1{
-  display: flix;
-  justify-content: space-around;
-  align-items: center;
+  padding-bottom:50px;
 }
 
-header .sns-content{
-  display: flex;
-  width: 50px;
-  height: 50px;
-  position:absolute;
-  top: 50%;
-  left: 15%;
-  margin: -30px 0 0 -30px;
-  color: black;
-}
 
-header .sns-card h2{
-  margin-right: 300px;
+.container{
+  padding:30px;
 }
-header .sns-card p{
-  position :relative;
-}
-header .sns-card a{
-  margin-right: 120px;
-}
-
-.container {
-  height: 100vh;
-  padding: 120px;
-}
-
-.container h1 {
-  text-align: center;
-  font-size: 50px;
-}
-
 .profileImage {
   object-fit: cover;
   height: 100px;
   width: 100px;
   border-radius: 50%;
   margin-bottom: 15px;
+  margin-top: 50px;
 }
-
+.page-section{
+  padding-top: 70px;
+}
+.text-padding-bottom .title{
+  padding-bottom:70px;
+}
+.text-padding-bottom{
+  padding-bottom:70px;
+}
+.text-padding-top .title{
+  padding-top:200px;
+}
+.text-center{
+  display: flix;
+  justify-content: space-around;
+  align-items: center;
+}
 img {
   width: 300px;
   height: 500px;
 }
-
 .service {
   margin-top: 80px;
   margin-bottom: 60px;
+  object-fit: cover;
 }
-
 #skill img {
   object-fit: cover;
   margin-bottom: 12px;
   margin-top: 12px;
   height: 300px;
-}
-
-#skill button {
-  margin-bottom: 100px;
 }

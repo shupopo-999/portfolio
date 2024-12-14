@@ -1,23 +1,27 @@
-import React from 'react'
-import { Button } from 'react-bootstrap';
-
+import React from "react";
 import reactImage from "../images/react.png";
-import jsImage from "../images/js.png";
-import firebaseImage from "../images/firebase.jpg";
+import tsImage from "../images/ts.png";
+import awsImage from "../images/AWS.jpg";
 import profileImage from "../images/shupopo.png";
+import cplusImage from "../images/c++.png";
+import cImage from "../images/c.png";
+import direxrXImage from "../images/DirectX.png";
+import pythonImage from "../images/python.png";
 
 const HomePage = () => {
+  const names:string = "shu_999です!!";
+  const pr:string = "普段行っているプログラムはReactを使ってTypeScriptでWebアプリケーションを作ったり、DirectXを使ってゲームを作ったりしています。\nその他にも、私生活ではゲームをしたり、アニメを見たりしています。\nゲームではApexやVALORANT、最近ではPUBGに再度ハマっております。\nアニメでは、ダンダダンや黙示録の四騎士、ドラゴンボールDAIMAなどを見ています。";
+
   return (
-    <header>
-      <div className="home">
-        <h1>ホーム</h1>
+    <div className="container text-center">
+      <h1 className="home title">ホーム</h1>
+      <div>
         <img src={profileImage} className="profileImage" />
-
-      <p>
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-      </p>
-
+        <p>
+          <h4>{names}</h4>
+          <MultiLineBody body={pr}></MultiLineBody>
+        </p>
+      </div>
       <section className="page-section" id="services">
         <div className="service">
           <div className="text-center">
@@ -25,77 +29,76 @@ const HomePage = () => {
             <h3 className="section-subheading text-muted mb-5">
               私が作った作品一覧です
             </h3>
-          </div>
-          <div className="row text-center">
-            <div className="col-md-4">
-              <span className="fa-stack fa-4x">
-                <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-              </span>
-              <h4 className="my-3">ECサイト</h4>
-              <p className="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
-              </p>
-            </div>
-            <div className="col-md-4">
-              <span className="fa-stack fa-4x">
-                <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-laptop fa-stack-1x fa-inverse"></i>
-              </span>
-              <h4 className="my-3">レスポンシブサイト</h4>
-              <p className="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
-              </p>
-            </div>
-            <div className="col-md-4">
-              <span className="fa-stack fa-4x">
-                <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-lock fa-stack-1x fa-inverse"></i>
-              </span>
-              <h4 className="my-3">ウェブセキュリティ</h4>
-              <p className="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
-              </p>
-            </div>
+            <p>
+              ここにゲームの写真とかを貼りたい
+            </p>
           </div>
         </div>
       </section>
 
       <section id="skill">
         <div className="text-center">
-          <h1 className="title">スキル</h1>
+          <div className="text-padding-bottom text-padding-top">
+            <h1 className="title">スキル一覧</h1>
+          </div>
           <div className="row text-center">
+            <div className="col-md-4 services">
+              <img src={direxrXImage} />
+              <h4>DirectX</h4>
+              <p>DirectXが使えます</p>
+            </div>
+            <div className="col-md-4 services">
+              <img src={cImage} />
+              <h4>C言語</h4>
+              <p>C言語が使えます</p>
+            </div>
+            <div className="col-md-4 services">
+              <img src={cplusImage} />
+              <h4>C++</h4>
+              <p>C++が使えます</p>
+            </div>
+
+            <div className="text-padding-bottom text-padding-top">
+              <h1 className="title">勉強中のスキル一覧</h1>
+            </div>
+
+            <div className="col-md-4 services">
+              <img src={awsImage} />
+              <h4>AWS</h4>
+              <p>AWS勉強中です</p>
+            </div>
             <div className="col-md-4 services">
               <img src={reactImage} />
               <h4>React</h4>
-              <p>Reactがつかえます</p>
+              <p>独学でReact勉強中です</p>
             </div>
             <div className="col-md-4 services">
-              <img src={jsImage} />
-              <h4>HTML/CSS</h4>
-              <p>HTML/CSSがつかえます</p>
+              <img src={tsImage} />
+              <h4>TypeScript</h4>
+              <p>独学でTypeScript勉強中です</p>
             </div>
             <div className="col-md-4 services">
-              <img src={firebaseImage} />
-              <h4>Firebase</h4>
-              <p>Firebaseがつかえます</p>
+              <img src={pythonImage} />
+              <h4>python</h4>
+              <p>独学でpython勉強中です</p>
             </div>
           </div>
-          <button type="button" className="btn btn-primary">
-            スキル一覧
-          </button>
         </div>
       </section>
-      </div>
-      
-    </header>
-  )
-}
+    </div>
+  );
+};
 
-export default HomePage
+const MultiLineBody = ({ body }: { body: string }) => {
+  const texts = body.split('\n').map((item, index) => {
+    return (
+      <React.Fragment key={index}>
+        {item}
+        <br />
+      </React.Fragment>
+    );
+  });
+  return <div>{texts}</div>;
+};
+
+export default HomePage;
