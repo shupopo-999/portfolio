@@ -1,30 +1,26 @@
 import React from 'react'
 import direxrXImage from "../images/DirectX.png";
 
+const pr:string = "";
+
 const BlogPage = () => {
   return (
     <div className="container text-center">
       <div className="text-padding-bottom">
-        <h1 className="blog title">作品(仮)</h1>
+        <h1 className="blog title">ブログ</h1>
       </div>
       <section id="skill">
         <div className="text-center">
           <div className="row text-center">
-            <div className="services text-padding-bottom">
-              <img src={direxrXImage} />
-              <h4>1年次の作品</h4>
-              <p>頑張った</p>
-            </div>
-            <div className="services text-padding-bottom">
-              <img src={direxrXImage} />
-              <h4>2年次の作品</h4>
-              <p>この作品ではスキルを使う部分がありそこの一部を担当していました。</p>
-            </div>
-            <div className="services text-padding-bottom">
-              <img src={direxrXImage} />
-              <h4>3年次の作品</h4>
-              <p>独学で他の言語を学び頑張りました。</p>
-              <a href='https://main.d1imdaxv4yro4n.amplifyapp.com/'>これが作品です。</a>
+            <div className="services text-padding-bottom centered-text">
+              <h3>MinecraftServer編</h3>
+              <h6 className="left-aligned-text">
+                <p>マイクラは高校時代から始め、その時のネット友達からサーバーの立て方を教えてもらいその時からマイクラにハマって行き、</p>
+                <p>最初の方はサーバーを立てるのがめんどうに思っていましたが、立ててるうちに楽しくなり、最近ではMODサーバーやプラグイ</p>
+                <p>ンサーバーを立てたりして遊んでいます。最近ではドラゴンが出てくるようなMODや、魔法が使えるMODなどを入れて遊ん</p>
+                <p>でいます。</p>
+                <p></p>
+              </h6>
             </div>
           </div>
         </div>

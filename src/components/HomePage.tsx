@@ -7,6 +7,9 @@ import cplusImage from "../images/c++.png";
 import cImage from "../images/c.png";
 import direxrXImage from "../images/DirectX.png";
 import pythonImage from "../images/python.png";
+import unityImage from "../images/unity.png";
+import unrealImage from "../images/unreal.png";
+import CSharplImage from "../images/CSharp.jpg";
 
 const HomePage = () => {
   const names:string = "shu_999です!!";
@@ -35,6 +38,16 @@ const HomePage = () => {
               <p>DirectXが使えます</p>
             </div>
             <div className="col-md-4 services">
+              <img src={unityImage} />
+              <h4>Unity</h4>
+              <p>Unityが使えます</p>
+            </div>
+            <div className="col-md-4 services">
+              <img src={unrealImage} />
+              <h4>Unreal</h4>
+              <p>Unrealが使えます</p>
+            </div>
+            <div className="col-md-4 services">
               <img src={cImage} />
               <h4>C言語</h4>
               <p>C言語が使えます</p>
@@ -44,6 +57,12 @@ const HomePage = () => {
               <h4>C++</h4>
               <p>C++が使えます</p>
             </div>
+            <div className="col-md-4 services">
+              <img src={CSharplImage} />
+              <h4>C#</h4>
+              <p>C#が使えます</p>
+            </div>
+
 
             <div className="text-padding-bottom text-padding-top">
               <h1 className="title">勉強中のスキル一覧</h1>
