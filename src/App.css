@@ -91,6 +91,13 @@ img {
   margin-bottom: 60px;
   object-fit: cover;
 }
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+.flex-item{
+	flex: 50 50 px;
+}
 #skill img {
   object-fit: cover;
   margin-bottom: 12px;

@@ -14,6 +14,7 @@ const SNSPage = () => {
         <div className="text-center title">
           <div className="row text-center">
             <div className="col-md-4 services text-padding-bottom">
+              <h4>X(旧Twitter)</h4>
               <img src={XImage} />
               <h4>X(旧Twitter)</h4>
               <p>DirectXが使えます</p>
