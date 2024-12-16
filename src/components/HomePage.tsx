@@ -22,20 +22,7 @@ const HomePage = () => {
           <MultiLineBody body={pr}></MultiLineBody>
         </p>
       </div>
-      <section className="page-section" id="services">
-        <div className="service">
-          <div className="text-center">
-            <h2 className="section-heading text-uppercase">PORTFOLIO</h2>
-            <h3 className="section-subheading text-muted mb-5">
-              私が作った作品一覧です
-            </h3>
-            <p>
-              ここにゲームの写真とかを貼りたい
-            </p>
-          </div>
-        </div>
-      </section>
-
+      
       <section id="skill">
         <div className="text-center">
           <div className="text-padding-bottom text-padding-top">
