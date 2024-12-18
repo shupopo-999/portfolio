@@ -2,7 +2,7 @@ import React from "react";
 import reactImage from "../images/react.png";
 import tsImage from "../images/ts.png";
 import awsImage from "../images/AWS.jpg";
-import profileImage from "../images/shupopo.png";
+import profileImage from "../images/20099.jpg";
 import cplusImage from "../images/c++.png";
 import cImage from "../images/c.png";
 import direxrXImage from "../images/DirectX.png";
@@ -10,9 +10,10 @@ import pythonImage from "../images/python.png";
 import unityImage from "../images/unity.png";
 import unrealImage from "../images/unreal.png";
 import CSharplImage from "../images/CSharp.jpg";
+import BlenderlImage from "../images/blender.png";
 
 const HomePage = () => {
-  const names:string = "shu_999です!!";
+  const names:string = "乾 修です!!";
   const pr:string = "普段行っているプログラムはReactを使ってTypeScriptでWebアプリケーションを作ったり、DirectXを使ってゲームを作ったりしています。\nその他にも、私生活ではゲームをしたり、アニメを見たりしています。\nゲームではApexやVALORANT、最近ではPUBGに再度ハマっております。\nアニメでは、ダンダダンや黙示録の四騎士、ドラゴンボールDAIMAなどを見ています。";
 
   return (
@@ -68,6 +69,11 @@ const HomePage = () => {
               <h1 className="title">勉強中のスキル一覧</h1>
             </div>
 
+            <div className="col-md-4 services">
+              <img src={BlenderlImage} />
+              <h4>Blender</h4>
+              <p>Blender勉強中です</p>
+            </div>
             <div className="col-md-4 services">
               <img src={awsImage} />
               <h4>AWS</h4>
