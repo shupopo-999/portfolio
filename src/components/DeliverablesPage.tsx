@@ -4,6 +4,8 @@ import TodoImage from "../images/todo.png";
 import PortfolioImage from "../images/portfolio.png";
 import ContestImage from "../images/contest.png";
 import HEWImage from "../images/hew.png";
+import WEBImage from "../images/web-app.png";
+import WEBImage2 from "../images/web-app2.png";
 
 const DeliverablesPage = () => {
   return (
@@ -14,6 +16,22 @@ const DeliverablesPage = () => {
       <section id="skill">
         <div className="text-center">
           <div className="row text-center">
+            <h4>現在制作中の作品</h4>
+            <div className="services text-padding-bottom">
+              <img src={WEBImage} /><br />
+              <p>
+                現在WEBで僕の苦手な英語を克服するために<br />
+                英単語を時間内にタイピングするゲームを制作中です！<br />
+                <img src={WEBImage2} /><br />
+                このように分からない単語があればSkipボタンを押すことによって4点を代償に答えが表示されるようにしました。<br />
+                最初は-6点にしていたのですが自分でやってるうちに回転率が悪いなと感じ始めたので-4点にしました。<br />
+                代償はなしでもいいかなと思ってはいたのですがゲーム性が失われると思ったのでskipを押すと-4点をするようにしました。<br />
+                現在単語数も少ないので同じ単語が何回か出てきたりします。<br />
+                今後のUpdateでどんどん増やしていこうと思います。<br />
+              </p>
+              <a href='https://main.d24t8naahauj49.amplifyapp.com/'>作品のURL <br /></a>
+              <a href='https://github.com/shupopo-999/web-app'>作品のGitHubURL</a>
+            </div>
             <h4>1年次の作品</h4>
             <div className="services text-padding-bottom">
               <img className="image" src={DirexrXImage} />
@@ -50,14 +68,6 @@ const DeliverablesPage = () => {
                 ReactのTypeScriptで作成した作品です。<br />
               </p>
               <a href='https://github.com/shupopo-999/todo-list'>作品のGitHubURL</a>
-            </div>
-            <div className="services text-padding-bottom">
-              <img src={DirexrXImage} />
-              <p>
-                現在WEBで僕の苦手な英語を克服するために<br />
-                英単語を時間内にタイピングするゲームを制作中<br />
-              </p>
-              <a href='https://github.com/shupopo-999/web-app'>作品のGitHubURL</a>
             </div>
           </div>
         </div>
