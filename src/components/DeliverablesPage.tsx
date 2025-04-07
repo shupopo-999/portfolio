@@ -11,7 +11,7 @@ const DeliverablesPage = () => {
   return (
     <div className="container text-center">
       <div className="text-padding-bottom">
-        <h1 className="delicerbles title">作品(仮)</h1>
+        <h1 className="delicerbles title">作品一覧</h1>
       </div>
       <section id="skill">
         <div className="text-center">

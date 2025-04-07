@@ -16,7 +16,7 @@ const Header = () => {
                     <Link to="/blog">ブログ</Link>
                 </li>
                 <li>
-                    <Link to="/deli">作品(仮)</Link>
+                    <Link to="/deli">作品一覧</Link>
                 </li>
                 <li>
                     <Link to="/sns">SNS</Link>
