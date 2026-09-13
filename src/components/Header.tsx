@@ -12,8 +12,8 @@ const Header = () => {
                 <li>
                     <Link to="/">ホーム</Link>
                 </li>
-                <li>
-                    <Link to="/blog">ブログ</Link>
+                 <li>
+                    <Link to="/work-history">職務経歴</Link>
                 </li>
                 <li>
                     <Link to="/deli">作品一覧</Link>

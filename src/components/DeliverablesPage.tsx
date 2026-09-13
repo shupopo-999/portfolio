@@ -11,12 +11,22 @@ const DeliverablesPage = () => {
   return (
     <div className="container text-center">
       <div className="text-padding-bottom">
-        <h1 className="delicerbles title">作品一覧</h1>
+        <h1 className="delicerbles title">学生時代の作品一覧</h1>
       </div>
       <section id="skill">
         <div className="text-center">
           <div className="row text-center">
-            <h4>現在制作中の作品</h4>
+            <h4>ポートフォリオ作品</h4>
+            <div className="services text-padding-bottom">
+              <img src={PortfolioImage} />
+              <p>
+                独学で他言語を学び現在のこのページを作成し、このWebサイトはAWSのAmplifyを使用して動かしています。<br />
+                これが作品でもありポートフォリオです。<br />
+              </p>
+              <a href='https://main.d1imdaxv4yro4n.amplifyapp.com/'>作品のURL</a><br />
+              <a href='https://github.com/shupopo-999/portfolio'>作品のGitHubURL</a>
+            </div>
+            <h4>就職作品</h4>
             <div className="services text-padding-bottom">
               <img src={WEBImage} /><br />
               <p>
@@ -51,23 +61,6 @@ const DeliverablesPage = () => {
                 このコンテストでは個人で作成しました。<br />
               </p>
               <a href='https://github.com/shupopo-999/Contest'>作品のGitHubURL</a>
-            </div>
-            <div className="services text-padding-bottom">
-              <img src={PortfolioImage} />
-              <p>
-                独学で他言語を学び現在のこのページを作成し、このWebサイトはAWSのAmplifyを使用して動かしています。<br />
-                これが作品でもありポートフォリオです。<br />
-              </p>
-              <a href='https://main.d1imdaxv4yro4n.amplifyapp.com/'>作品のURL</a><br />
-              <a href='https://github.com/shupopo-999/portfolio'>作品のGitHubURL</a>
-            </div>
-            <div className="services text-padding-bottom">
-              <img src={TodoImage} />
-              <p>
-                独学でYoutubeやサイトなどでReactやTypeScriptを学びました。<br />
-                ReactのTypeScriptで作成した作品です。<br />
-              </p>
-              <a href='https://github.com/shupopo-999/todo-list'>作品のGitHubURL</a>
             </div>
           </div>
         </div>
