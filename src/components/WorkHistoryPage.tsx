@@ -16,13 +16,14 @@ const workHistories: WorkHistory[] = [
     period: "2026年04月 - 現在",
     company: "株式会社Nikyo",
     position: "サーバーエンジニア",
-    summary: "Windows Serverの設計・構築を中心を担当しています。",
+    summary: "Windows Serverの設計・構築を中心に担当しています。",
     responsibilities: [
+      "初の案件では、メインで設計から構築までを担当(クラウドの知識があるのが私しかいなかったため)",
       "Windows Serverの設計・構築・各種設定",
       "構築手順書、テスト仕様書、運用資料の作成",
       "動作確認、関係者への進捗共有",
     ],
-    technologies: ["Windows Server", "Active Directory", "PowerShell", "AWS", "Cluster"],
+    technologies: ["Windows Server", "Active Directory", "AWS", "Cluster"],
     achievement: "作業手順を見直して資料を標準化し、担当者による作業品質のばらつきを抑えました。",
   },
   {
@@ -33,7 +34,7 @@ const workHistories: WorkHistory[] = [
     responsibilities: [
       "C++、C#を用いたゲーム開発",
       "React、TypeScriptを用いたWebアプリケーション制作",
-      "GitHubを利用したソースコード管理とチーム開発",
+      "チーム開発における、GitHubを利用したソースコード管理",
     ],
     technologies: ["C++", "C#", "Unity", "Unreal Engine", "React", "TypeScript", "GitHub", "AWS"],
   },

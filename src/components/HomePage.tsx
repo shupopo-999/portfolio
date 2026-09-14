@@ -26,7 +26,7 @@ const HomePage = () => {
             <h3>乾 修</h3>
           </div>
           <p>
-          現在会社では、Windows Serverの構築をメインとしてその他に手順書作成や先輩や上司のサポートを行っております。 <br/>
+          現在会社では、Windows Serverの構築をメインとしてその他に手順書作成や先輩や上司の業務の補助を行っております。 <br/>
           また、個人開発を通してWeb技術を継続的に学び、課題を整理して形にする力を磨いており、現在のWebサイトのURLに<br/>
           使用しているドメインを自ら購入し、Webサイトに使用したり、ゲームでのサーバー構築を行う際に使用したりしています。
           </p>
@@ -42,17 +42,17 @@ const HomePage = () => {
               <div className="col-md-4 services image">
                 <img src={awsImage} />
                 <h4>AWS</h4>
-                <p>入社して初めての案件でAWSを活用しました。</p>
+                <p>入社して初めての案件でAWSでの構築をメインで担当しました。</p>
               </div>
               <div className="col-md-4 services image">
                 <img src={ActiveDirectry} />
                 <h4>Active  Derectry</h4>
-                <p>入社して社内の検証環境でドメインコントローラーの昇格や降格を学習していました。</p>
+                <p>社内の検証環境で先輩や上司の手を借りず全て独学でドメインコントローラーの昇格や降格を学習していました。</p>
               </div>
               <div className="col-md-4 services image">
                 <img src={cluster} />
                 <h4>Cluster</h4>
-                <p>入社して社内の検証環境でクラスタリングを学習していました。</p>
+                <p>社内の検証環境で先輩や上司の手を借りず全て独学でクラスタリングを学習していました。</p>
               </div>
             </div>
           <div className="text-padding-bottom text-padding-top">
@@ -62,7 +62,7 @@ const HomePage = () => {
             <div className="col-md-4 services image">
               <img src={direxrXImage} />
               <h4>DirectX</h4>
-              <p>DirectXは2年から卒業するまで学習していました。</p>
+              <p>DirectXは2年から卒業するまで学習し、ゲームを１から作成できる段階まで成長しました。</p>
             </div>
             <div className="col-md-4 services image">
               <img src={unityImage} />
@@ -72,47 +72,47 @@ const HomePage = () => {
             <div className="col-md-4 services image">
               <img src={unrealImage} />
               <h4>UnrealEngine</h4>
-              <p>UnrealEngineは3年の授業で学習しておりコンテストにも提出していました。</p>
+              <p>UnrealEngineは3年の授業で学習しており、ぷちコンというUnrealEngineのコンテストにも提出しました。</p>
             </div>
             <div className="col-md-4 services image">
               <img src={cImage} />
               <h4>C言語</h4>
-              <p>C言語は学生生活４年間学習していました。</p>
+              <p>C言語は学生生活４年間学習しており、基礎的なプログラミングスキルやアルゴリズムを習得しました。</p>
             </div>
             <div className="col-md-4 services image">
               <img src={cplusImage} />
               <h4>C++</h4>
-              <p>C++は学生生活４年間学習していました。</p>
+              <p>C++は学生生活４年間学習しており、基礎的なプログラミングスキルやアルゴリズムを習得しました。</p>
             </div>
             <div className="col-md-4 services image">
               <img src={CSharplImage} />
               <h4>C#</h4>
-              <p>C#は主にUnityでのみ使用しています。</p>
+              <p>C#は主にUnityでのみ使用しており、Unityで使用する範囲内でのみプログラミングを行えます。</p>
             </div>
             <div className="col-md-4 services image">
               <img src={BlenderlImage} />
               <h4>Blender</h4>
-              <p>Blenderでゲーム制作時に使用していました。</p>
+              <p>Blenderでゲーム制作時に簡単なオブジェクトや小道具のモデリングに使用していました。</p>
             </div>
             <div className="col-md-4 services image">
               <img src={reactImage} />
               <h4>React</h4>
-              <p>ポートフォリオを作成するにあたって学習しました。</p>
+              <p>現在のポートフォリオや就職作品を作成するにあたって学習しました。</p>
             </div>
             <div className="col-md-4 services image">
               <img src={tsImage} />
               <h4>TypeScript</h4>
-              <p>ポートフォリオを作成するにあたって学習しました。</p>
+              <p>現在のポートフォリオや就職作品を作成するにあたって学習しました。</p>
             </div>
             <div className="col-md-4 services image">
               <img src={awsImage} />
               <h4>AWS</h4>
-              <p>ポートフォリオや就職作品の公開するにあたってAWSを活用しました。</p>
+              <p>現在のポートフォリオや就職作品の公開するにあたってAWSを活用し、GitHubとAWSの機能を連携し、いつでもWebページをアップデートできる環境を整えました。</p>
             </div>
             <div className="col-md-4 services image">
               <img src={pythonImage} />
               <h4>python</h4>
-              <p>最終学年の授業で画像生成をするために学習しました。</p>
+              <p>最終学年の授業で画像生成をするために学習していました。</p>
             </div>
 
           </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import DirexrXImage from "../images/DirectX.png";
 import TodoImage from "../images/todo.png";
 import PortfolioImage from "../images/portfolio.png";
+import EndGame from "../images/endgame.png";
 import ContestImage from "../images/contest.png";
 import HEWImage from "../images/hew.png";
 import WEBImage from "../images/web-app.png";
@@ -16,6 +17,17 @@ const DeliverablesPage = () => {
       <section id="skill">
         <div className="text-center">
           <div className="row text-center">
+            <h4>卒業作品</h4>
+            <div className="services text-padding-bottom">
+              <img src={EndGame} />
+              <p>
+                自分自らリーダーに立候補し、自分が一緒にゲームを作りたいと思ったメンバーを揃えて制作した<br />
+                学生時代最後のゲーム作品です。<br />
+                このゲームはAIを活用し、カメラでフェイストラッキングを行い、プレイヤーを動かし刀を抜刀して敵を倒すゲームです。<br />
+                SwitchのJoy-Conを使用して刀の抜刀操作を行います。<br />
+              </p>
+              <a href='https://github.com/shupopo-999/WordSlayer.git'>作品のGitHubURL</a>
+            </div>
             <h4>ポートフォリオ作品</h4>
             <div className="services text-padding-bottom">
               <img src={PortfolioImage} />
