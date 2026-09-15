@@ -26,6 +26,7 @@ const DeliverablesPage = () => {
                 このゲームはAIを活用し、カメラでフェイストラッキングを行い、プレイヤーを動かし刀を抜刀して敵を倒すゲームです。<br />
                 SwitchのJoy-Conを使用して刀の抜刀操作を行います。<br />
               </p>
+              <a href='https://youtu.be/0YPbXpY6j1w'>作品動画のURL</a><br/>
               <a href='https://github.com/shupopo-999/WordSlayer.git'>作品のGitHubURL</a>
             </div>
             <h4>ポートフォリオ作品</h4>
